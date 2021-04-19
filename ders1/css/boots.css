@@ -1,0 +1,92 @@
+.bg-img {
+	background: url(../img/bg.png) no-repeat center;
+	background-size: cover;
+}
+.bg-img1{
+	background: url(../img/bg-1.png) no-repeat center;
+	background-size: cover;
+}
+.bg-img2{
+	background: url(../img/bg-2.png) no-repeat center;
+	background-size: cover;
+}
+.bg-img3{
+	background: url(../img/bg-3.png) no-repeat center;
+	background-size: cover;
+}
+.overlay {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #2d1a59;
+	opacity: 0.8;
+}
+.roboto {font-family: 'Roboto Condensed';}
+.playfair { font-family: 'Playfair Display'; }
+.hammer{ font-family: 'Hammersmith One'; }
+.fs-30 { font-size: 30px; }
+.fs-22 { font-size: 22px; }
+.blue { color: #00e0d0; }
+.unstyled { list-style: none; }
+.pt-30 { padding-top: 30px; }
+.home:hover{
+	color: #00e0d0 !important;
+}
+.border-bot { border-bottom: 2px solid #00e0d0; }
+.border-bot2 { border-bottom: 2px solid #c6c4c9; }
+.border1 { border: 1px solid #00e0d0; }
+.py-10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.px-15 {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.pt-65 { padding-top: 65px; }
+.pt-140 { padding-top: 140px;}
+.pt-200 { padding-top: 200px; }
+.pb-100 { padding-bottom: 100px; }
+.pb-200 { padding-bottom: 200px; }
+.mb-130 { margin-bottom: 130px; }
+.mb-70 { margin-bottom: 70px; }
+.contain { object-fit: contain; }
+.circle:hover{
+	color: #00e0d0 !important;
+}
+.black { color: #413d4b }
+.bor-bot {
+	border-bottom: 1px solid #c6c4c9; 
+}
+.bor-all {
+	border-right: 1px solid #c6c4c9;
+	border-left: 1px solid #c6c4c9;
+	border-bottom: 1px solid #c6c4c9;
+}
+.bor-2 {
+	border-right: 1px solid #c6c4c9;
+	border-left: 1px solid #c6c4c9;
+}
+@media (max-width: 767.98px) {
+	.pt-50 { padding-top: 50px; }
+	.b-none{ border: none; }
+}
+.cover { object-fit: cover; }
+.h-200 { height: 200px; }
+.fs-100 { font-size: 100px; }
+.rs-none { resize: none; }
+input[type=submit]{
+	color: #00e0d0;
+	font-family: 'Hammersmith One';
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #00e0d0;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.bg-none { background: none; }
+.border { border: 1px solid #e5e5e4; }
+.pad-sub{ padding: 8px 10px 10px 10px; }
